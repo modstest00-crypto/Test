@@ -1,0 +1,25 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Generated files
+app/src/main/assets/model.tflite
+
+# Keystore files
+*.jks
+*.keystore
+*.p12
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors - Modern Purple/Indigo -->
+    <color name="primary">#7C3AED</color>
+    <color name="primary_dark">#6D28D9</color>
+    <color name="primary_light">#A78BFA</color>
+    <color name="primary_variant">#5B21B6</color>
+    <color name="on_primary">#FFFFFF</color>
+    
+    <!-- Secondary Colors - Vibrant Teal -->
+    <color name="secondary">#14B8A6</color>
+    <color name="secondary_dark">#0D9488</color>
+    <color name="secondary_light">#5EEAD4</color>
+    <color name="on_secondary">#FFFFFF</color>
+    
+    <!-- Background & Surface Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F7</color>
+    <color name="surface_elevated">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="on_background">#1C1C1E</color>
+    <color name="on_surface">#1C1C1E</color>
+    <color name="on_surface_variant">#6B7280</color>
+    <color name="on_surface_hint">#9CA3AF</color>
+    
+    <!-- Category Colors - Vibrant & Distinct -->
+    <color name="category_social">#EC4899</color>
+    <color name="category_social_light">#FCE7F3</color>
+    <color name="category_chat">#8B5CF6</color>
+    <color name="category_chat_light">#EDE9FE</color>
+    <color name="category_gaming">#EF4444</color>
+    <color name="category_gaming_light">#FEE2E2</color>
+    <color name="category_shopping">#F97316</color>
+    <color name="category_shopping_light">#FFEDD5</color>
+    <color name="category_news">#EAB308</color>
+    <color name="category_news_light">#FEF9C3</color>
+    <color name="category_music">#14B8A6</color>
+    <color name="category_music_light_light">#CCFBF1</color>
+    <color name="category_video">#3B82F6</color>
+    <color name="category_video_light">#DBEAFE</color>
+    <color name="category_maps">#22C55E</color>
+    <color name="category_maps_light">#DCFCE7</color>
+    <color name="category_finance">#6366F1</color>
+    <color name="category_finance_light">#E0E7FF</color>
+    <color name="category_productivity">#06B6D4</color>
+    <color name="category_productivity_light">#CFFAFE</color>
+    <color name="category_settings">#6B7280</color>
+    <color name="category_settings_light">#F3F4F6</color>
+    <color name="category_other">#9CA3AF</color>
+    <color name="category_other_light">#F9FAFB</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="success_light">#D1FAE5</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_light">#FEF3C7</color>
+    <color name="error">#EF4444</color>
+    <color name="error_light">#FEE2E2</color>
+    <color name="info">#3B82F6</color>
+    <color name="info_light">#DBEAFE</color>
+    
+    <!-- Pro/Premium Colors -->
+    <color name="pro_gold">#FFD700</color>
+    <color name="pro_gold_dark">#B8860B</color>
+    <color name="pro_gradient_start">#7C3AED</color>
+    <color name="pro_gradient_end">#EC4899</color>
+    <color name="pro_card_background">#FDF4FF</color>
+    
+    <!-- UI Element Colors -->
+    <color name="divider">#E5E7EB</color>
+    <color name="divider_light">#F3F4F6</color>
+    <color name="ripple_primary">#1A7C3AED</color>
+    <color name="ripple_secondary">#1A14B8A6</color>
+    <color name="shadow">#1A000000</color>
+    
+    <!-- Tab Colors -->
+    <color name="tab_selected">#7C3AED</color>
+    <color name="tab_unselected">#9CA3AF</color>
+    <color name="tab_indicator">#7C3AED</color>
+    
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">#7C3AED</color>
+    <color name="bottom_nav_unselected">#9CA3AF</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    
+    <!-- FAB Colors -->
+    <color name="fab_primary">#7C3AED</color>
+    <color name="fab_secondary">#14B8A6</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_purple_start">#7C3AED</color>
+    <color name="gradient_purple_end">#EC4899</color>
+    <color name="gradient_blue_start">#3B82F6</color>
+    <color name="gradient_blue_end">#14B8A6</color>
+    <color name="gradient_sunset_start">#F97316</color>
+    <color name="gradient_sunset_end">#EC4899</color>
+    
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+    <color name="scrim">#80000000</color>
+</resources>

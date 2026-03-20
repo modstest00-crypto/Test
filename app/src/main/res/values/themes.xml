@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme - Modern Material 3 -->
+    <style name="Theme.SnapSort" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SnapSort.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.SnapSort.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.SnapSort.LargeComponent</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.SnapSort.Splash" parent="Theme.SnapSort">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+    </style>
+    
+    <!-- Shape Appearances -->
+    <style name="ShapeAppearance.SnapSort.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.SnapSort.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.SnapSort.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="Theme.SnapSort.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Card.Elevated" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/surface_elevated</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">6dp</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Card.Pro" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/pro_card_background</item>
+        <item name="cardCornerRadius">24dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/pro_gold</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Theme.SnapSort.Button" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Button.Pro" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="backgroundTint">@color/pro_gradient_start</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    
+    <!-- FAB Styles -->
+    <style name="Theme.SnapSort.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/fab_primary</item>
+        <item name="tint">@color/on_primary</item>
+        <item name="elevation">6dp</item>
+    </style>
+    
+    <style name="Theme.SnapSort.FAB.Secondary" parent="Widget.Material3.FloatingActionButton.Secondary">
+        <item name="backgroundTint">@color/fab_secondary</item>
+        <item name="tint">@color/on_primary</item>
+        <item name="elevation">6dp</item>
+    </style>
+    
+    <!-- Tab Layout Styles -->
+    <style name="Theme.SnapSort.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="tabIndicatorColor">@color/tab_indicator</item>
+        <item name="tabSelectedTextColor">@color/tab_selected</item>
+        <item name="tabTextColor">@color/tab_unselected</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabRippleColor">@color/ripple_primary</item>
+    </style>
+    
+    <style name="Theme.SnapSort.TabLayout.Primary" parent="Widget.Material3.TabLayout.Primary">
+        <item name="tabIndicatorColor">@color/on_primary</item>
+        <item name="tabSelectedTextColor">@color/on_primary</item>
+        <item name="tabTextColor">@color/on_surface_variant</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+    
+    <!-- Bottom Navigation Styles -->
+    <style name="Theme.SnapSort.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_color_selector</item>
+        <item name="itemRippleColor">@color/ripple_primary</item>
+        <item name="itemActiveIndicatorStyle">@style/Theme.SnapSort.BottomNavigation.Indicator</item>
+        <item name="android:background">@color/bottom_nav_background</item>
+        <item name="elevation">8dp</item>
+    </style>
+    
+    <style name="Theme.SnapSort.BottomNavigation.Indicator" parent="Widget.Material3.NavigationView.Item.ActiveIndicator">
+        <item name="android:color">@color/category_finance_light</item>
+    </style>
+    
+    <!-- Chip Styles -->
+    <style name="Theme.SnapSort.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/surface_variant</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipMinHeight">36dp</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Chip.Pro" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/pro_gold</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="chipCornerRadius">20dp</item>
+    </style>
+    
+    <!-- Search Bar Style -->
+    <style name="Theme.SnapSort.SearchBar" parent="Widget.Material3.SearchBar">
+        <item name="android:background">@color/surface_variant</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+    
+    <!-- Progress Bar Style -->
+    <style name="Theme.SnapSort.ProgressBar" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="indicatorColor">@color/primary</item>
+        <item name="trackColor">@color/divider_light</item>
+        <item name="trackCornerRadius">4dp</item>
+        <item name="trackThickness">6dp</item>
+    </style>
+    
+    <!-- Dialog Style -->
+    <style name="Theme.SnapSort.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/Theme.SnapSort.Dialog.Rounded</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Dialog.Rounded">
+        <item name="cornerSize">20dp</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="Theme.SnapSort.Text.Headline">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/on_background</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Text.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/on_background</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Text.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/on_surface_variant</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Text.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/on_surface_hint</item>
+    </style>
+    
+    <style name="Theme.SnapSort.Text.Pro">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/pro_gold_dark</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+</resources>

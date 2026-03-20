@@ -1,0 +1,12 @@
+social_media
+chat_messages
+gaming
+shopping
+news_article
+music_audio
+video_streaming
+maps_navigation
+finance_banking
+productivity
+settings_system
+other
